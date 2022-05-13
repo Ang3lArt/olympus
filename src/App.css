@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700;800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body, html{
+    overflow-x: hidden;
+    background-color: black;
+}
+body{
+    background-image: url("assets/images/smoke.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    /* position: relative; */
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 5%;
+    overflow-x: hidden;
+
+
+   
+}
+
+
+@media(max-width: 500px){
+      .container{
+        padding-top: 10%;
+      }
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 0, 119);
+
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 195, 255);
+  }
+
